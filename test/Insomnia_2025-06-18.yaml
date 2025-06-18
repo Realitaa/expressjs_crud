@@ -1,0 +1,209 @@
+type: collection.insomnia.rest/5.0
+name: ExpressJS MySQL
+meta:
+  id: wrk_0c7e393a3722414881c0db4561d397e4
+  created: 1750241559199
+  modified: 1750241559199
+  description: ""
+collection:
+  - url: localhost:5000/api/v1/siswa
+    name: GET siswa
+    meta:
+      id: req_16181d678981460b855ddbb286a9031e
+      created: 1750241571522
+      modified: 1750241767129
+      isPrivate: false
+      description: ""
+      sortKey: -1750241571522
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/siswa/1
+    name: GET siswa by id
+    meta:
+      id: req_ba7b5c373f064deeb746d60d6662cb65
+      created: 1750241775718
+      modified: 1750241813483
+      isPrivate: false
+      description: ""
+      sortKey: -1750241775718
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/siswa
+    name: POST siswa
+    meta:
+      id: req_8e17591f3a1d4ebdb829be5158bece52
+      created: 1750241819515
+      modified: 1750241906369
+      isPrivate: false
+      description: ""
+      sortKey: -1750241819515
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Jhon Doe",
+        	"email": "jhondoe@example.com",
+        	"age": 17
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/siswa/3
+    name: DELETE siswa
+    meta:
+      id: req_1657243d04b64b6395295dbaaf9d161f
+      created: 1750241916658
+      modified: 1750241957252
+      isPrivate: false
+      description: ""
+      sortKey: -1750241916658
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/buku
+    name: GET buku
+    meta:
+      id: req_ad984ddc4e264b83963349e9737f4133
+      created: 1750241976310
+      modified: 1750242002787
+      isPrivate: false
+      description: ""
+      sortKey: -1750241976310
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/buku/1
+    name: GET buku by id
+    meta:
+      id: req_daf30208f375420ba278e7e151b9a4a0
+      created: 1750242014435
+      modified: 1750242017567
+      isPrivate: false
+      description: ""
+      sortKey: -1750241946484
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/buku
+    name: POST buku
+    meta:
+      id: req_70691db8442d469a8369fe0a4f58dc44
+      created: 1750242030409
+      modified: 1750242090840
+      isPrivate: false
+      description: ""
+      sortKey: -1750241961397
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Belajar Dasar SQL",
+        	"author": "Pyman",
+        	"year": 2000
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:5000/api/v1/buku/3
+    name: DELETE buku by id
+    meta:
+      id: req_6d9f1d573d0d45bfbb15a5452c623baf
+      created: 1750242112770
+      modified: 1750242118166
+      isPrivate: false
+      description: ""
+      sortKey: -1750241931571
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_49d229885284fc903b5b3d395eef9dfff9a450d4
+    created: 1750241559211
+    modified: 1750241559211
+environments:
+  name: Base Environment
+  meta:
+    id: env_49d229885284fc903b5b3d395eef9dfff9a450d4
+    created: 1750241559204
+    modified: 1750241559204
+    isPrivate: false
