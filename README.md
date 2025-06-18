@@ -45,7 +45,7 @@ This is a simple CRUD application built using ExpressJS and MySQL, designed to m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Realitaa/expressjs_crud
+   git clone https://github.com/Realitaa/expressjs_crud.git
    cd expressjs_crud
    ```
 2. Install dependencies:
