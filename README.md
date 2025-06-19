@@ -10,8 +10,9 @@ This is a simple CRUD application built using ExpressJS and MySQL, designed to m
     - [Buku Management](#buku-management)
 3. [Key Files](#key-files)
 4. [Installation](#installation)
-5. [API Testing](#api-testing)
-6. [Dependencies](#dependencies)
+5. [API Documentation](#api-documentation)
+6. [API Testing](#api-testing)
+7. [Dependencies](#dependencies)
 
 ## Features
 
@@ -45,18 +46,14 @@ This is a simple CRUD application built using ExpressJS and MySQL, designed to m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Realitaa/expressjs_crud.git
+   git clone https://github.com/Realitaa/expressjs_crud
    cd expressjs_crud
    ```
 2. Install dependencies:
    ```bash
    npm install
    ```
-3. Open your Web Server (e.g. XAMPP or Laragon) then Start the server and MySQL.
-4. Open `localhost/phpmyadmin` in your browser.
-5. Click menu Import.
-6. Choose file in the `backup/nextskill.sql` to import.
-7. Copy `.env.example` to `.env` and configure environment variables based on your environtment. Example:
+3. Copy .env.example to .env and configure environment variables based on your environtment. Example:
    ```bash
     DB_HOST=localhost
     DB_PORT=3306
@@ -65,10 +62,18 @@ This is a simple CRUD application built using ExpressJS and MySQL, designed to m
     DB_NAME=nextskill
     PORT=5000
    ```
-8. Start the server:
+4. Start your Web Server (e.g. XAMPP or Laragon) then Start the Server and MySQL.
+5. Open localhost/phpmyadmin in your browser.
+6. Click Import
+7. Choose file in the backup/nextskill.sql to import
+6. Start the server:
    ```bash
     npm start
    ```
+
+## API Documentation
+
+API Documentation is available on `/api-docs/` endpoint. You can access it in your browser after running `npm start`.
 
 ## API Testing
 
